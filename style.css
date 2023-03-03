@@ -1,20 +1,26 @@
+html{
+    margin: 0;
+    height: 100%;
+}
 body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
+    gap: 100px;
+    height: 100%;
 }
  /*Header*/
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
     padding: 20px;
     align-items: center;
 }
 .logo{
     color: #f9faf8;;
-    
-    font-size: 48px;
+    font-size: 24px;
 }
 a{
     font-family: sans-serif;
@@ -33,3 +39,12 @@ ul{
 /*Body*/
 
 /*Footer*/
+.footer{
+    border-color: #1f2937;
+    display: flex;
+    justify-content: center;  
+    background-color: #3882f6;
+    margin: 50px; 
+    gap: 50px;
+}
+
