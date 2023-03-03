@@ -49,6 +49,28 @@ ul{
     align-items: center;
     flex:1;
 }
+.container-b1{
+    margin-left: 50px;
+    flex: 1;
+}
+.title-b1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.sub-b1{
+    font-size: 16px;
+    color: lightgray;
+}
+.button-b1{
+    color: #f9faf8;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3882f6;
+}
+.img-b1{
+    flex: 1;
+    margin-right: 50px;
+}
 .body-two{
     flex:1;
 }
