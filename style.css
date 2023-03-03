@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ /*Header*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 20px;
+    align-items: center;
+}
+.logo{
+    color: #f9faf8;;
+    
+    font-size: 48px;
+}
+a{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+ul{
+    color: #f9faf8;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+/*Body*/
+
+/*Footer*/
