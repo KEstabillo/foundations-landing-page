@@ -5,9 +5,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 0;
-    gap: 100px;
     height: 100%;
 }
  /*Header*/
@@ -37,7 +35,26 @@ ul{
     gap: 20px;
 }
 /*Body*/
+.content{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.body-one{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.body-two{
+    flex:1;
+}
+.body-three{
+    flex:1;
+}
 /*Footer*/
 .footer{
     border-color: #1f2937;
@@ -48,6 +65,7 @@ ul{
     padding: 30px;
     gap: 50px;
     align-items: center;
+    border-radius: 15px;
 }
 b.white, p.white{
     color: #f9faf8;
