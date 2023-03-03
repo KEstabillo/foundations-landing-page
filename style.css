@@ -45,6 +45,15 @@ ul{
     justify-content: center;  
     background-color: #3882f6;
     margin: 50px; 
+    padding: 30px;
     gap: 50px;
+    align-items: center;
+}
+b.white, p.white{
+    color: #f9faf8;
 }
 
+.button-footer{
+    padding: 10 10;
+    font-size: 20px;
+}
