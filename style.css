@@ -8,10 +8,10 @@ body{
     margin: 0;
     height: 100%;
 }
- /*Header*/
+ /*----------------------Header----------------------*/
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1f2937;
     padding: 20px;
     align-items: center;
@@ -34,7 +34,7 @@ ul{
     padding: 0;
     gap: 20px;
 }
-/*Body*/
+/*----------------------Body----------------------*/
 .content{
     
     height: 100%;
@@ -69,15 +69,42 @@ ul{
 }
 .img-b1{
     flex: 1;
-    margin-right: 50px;
+    margin: 50px;
+    padding: 10px;
+    background-color: gray;
+    align-self: stretch;
 }
 .body-two{
     flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-b2{
+    display: flex;
+    flex-wrap: wrap;
 }
 .body-three{
     flex:1;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/*Footer*/
+.container-b3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote{
+    font-size: 36px;
+}
+.author{
+    font-size: 30px;
+    align-self: flex-end;
+}
+/*----------------------Footer----------------------*/
 .footer{
     border-color: #1f2937;
     display: flex;
